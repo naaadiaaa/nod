@@ -1,0 +1,16 @@
+<h1>
+    subjects
+</h1>
+<div class="my-2">
+<a href="/subjects/create">add new subjects</a>
+</div>
+{{#each subjects}}
+<div>
+    <a href="/subjects/{{_id}}">
+   {{name}}
+    </a>
+  
+</div>
+
+
+{{/each}}
